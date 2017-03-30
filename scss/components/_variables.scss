@@ -1,0 +1,77 @@
+$container-width: 960px;
+
+
+// -----------------Type--------------------------
+$text-base-color: #413d4b;
+$text-primary-color:#00e0d0;
+$text-dark-color:#131316;
+$text-invert-color: #fff;
+$body-color: $text-base-color;
+$body-bg: #fff;
+$font-size-base: 14px;
+$line-height-base: 1.572;
+$font-family-base: 'Roboto', Arial, sans-serif;
+$font-family-alt-serif:'Playfair Display', Georgia, 'Times New Roman', serif;
+$font-family-alt-sans-serif:'Hammersmith One', Arial, sans-serif;
+$font-weight-base: 300;
+$link-color: $text-invert-color;
+$link-color-hover: $text-primary-color;
+$heading-color: $text-base-color;
+$heading-font-family:$font-family-alt-serif;
+$heading-font-weight: 700;
+$heading-margin-1: 0.8em;
+$heading-font-size-1: ceil($font-size-base * 2.856); //~40px
+$heading-font-size-2: ceil($font-size-base * 2.286); //~36px
+$heading-font-size-3: ceil($font-size-base * 1.572); //~22px
+$heading-font-size-4: ceil($font-size-base * 1.286); //~18px
+$heading-font-size-5: ceil($font-size-base * 1.143); //~16px
+$heading-font-size-6: ceil($font-size-base * 0.86); //~12px
+
+
+//-----------------Buttons---------------//
+
+$btn-color: $text-primary-color;
+$btn-font-size: $font-size-base;
+$btn-bg: transparent;
+$btn-border: 1px solid $text-primary-color;
+$btn-border-radius:0;
+$btn-padding: 14px 15px;
+$btn-color-hover: $text-invert-color;
+$btn-bg-hover: $btn-bg;
+$btn-border-color-hover: $text-invert-color;
+
+
+//--------------FORMS---------------------//
+
+$form-color: $text-base-color;
+$form-bg: transparent;
+$form-border: 1px solid #e5e5e5;
+$form-border-radius: 0;
+$form-height: 45px;
+$form-padding-x: 20px;
+$form-font-size: $font-size-base;
+$form-line-height: $line-height-base;
+$form-margin-bottom: 23px;
+//$form-margin-left: 15px;
+//$form-margin-right: 15px;
+
+
+
+
+//-------------------icons-----------------//
+$icomoon-font-path: "../fonts/icons";
+
+$icon-circular: "\e900";
+$icon-games: "\e902";
+$icon-heart: "\e903";
+$icon-mobile: "\e904";
+$icon-paint: "\e905";
+$icon-play: "\e906";
+$icon-tv: "\e907";
+$icon-google: "\e901";
+$icon-youtube: "\e908";
+$icon-instagram: "\e909";
+$icon-facebook: "\ea90";
+$icon-twitter: "\ea96";
+$icon-dribbble: "\eaa7";
+

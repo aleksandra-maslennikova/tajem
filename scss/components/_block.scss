@@ -1,0 +1,55 @@
+.block {
+	position: relative;
+	
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	&-fill-height {
+		height: 100vh;
+		.block{
+			&-header {
+				display: table-header-group;
+				height: 1%;
+			}
+			&-content {
+				display: table-row-group;
+			}
+			&-footer {
+				display: table-footer-group;
+				height: 1%;
+				}
+			&-inner {
+			display: table-cell;
+			width:100%;
+			vertical-align: middle;
+			}
+		}
+	}
+	&-inner {
+			display: table-cell;
+			width:100%;
+			vertical-align: middle;
+			}
+	&-background{
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -5;
+			
+		}
+	}
+	&-overlay{
+	background: rgba(#180e41, 0.85);
+	}
+	&-invert{
+		color: #fff;
+	}
+}
+
+
+
+

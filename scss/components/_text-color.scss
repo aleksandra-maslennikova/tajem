@@ -1,0 +1,14 @@
+.text{
+    &-base{
+        color:$text-base-color;
+    }
+    &-primary{
+        color:$text-primary-color;
+    }
+    &-dark{
+        color:$text-dark-color;
+    }
+    &-invert{
+        color:$text-invert-color;
+    }
+}

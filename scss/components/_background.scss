@@ -1,0 +1,17 @@
+.background{
+    &-dark{
+        background: #424245;
+    }
+    &-darken{
+        background: #131316;
+    }
+    &-gray{
+        background: #89898b;
+    }
+    &-primary{
+        background: #ffeb33;
+    }
+    &-inverse{
+        background: #fff;
+    }
+}
